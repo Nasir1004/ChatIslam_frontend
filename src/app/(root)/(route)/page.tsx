@@ -14,7 +14,7 @@ const Home = () => {
       <Video />
       <Discovery />
       <MadeFor />
-      {/* <Offer /> */}
+      <Offer />
       <JoinUs />
     </>
   );

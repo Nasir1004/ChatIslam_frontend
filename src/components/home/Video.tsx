@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Video = () => {
   return (
-    <section className="max-container padding-container py-14 md:py-16 lg:py-[4.3rem]">
+    <section className="max-container padding-container py-10 md:py-10 lg:py-[4.3rem]">
         <div>
         <Image
           src="/user-video.png"

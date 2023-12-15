@@ -5,9 +5,9 @@ import MobileNav from './MobileNav';
 
 const navMenus = [
   { title: 'Home', src: '/' },
-  { title: 'Features', src: '/features' },
-  { title: 'About Us', src: '/about' },
-  { title: 'Contact Us', src: '/contact' },
+  { title: 'Features', src: '/' },
+  { title: 'About Us', src: '/' },
+  { title: 'Contact Us', src: '/' },
 ];
 
 const Navbar = () => {
