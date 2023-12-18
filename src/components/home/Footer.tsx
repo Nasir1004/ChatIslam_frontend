@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="max-container padding-container mt-40 bg-[#01302E]">
+    <footer className="w-full max-container padding-container mt-40 bg-[#01302E]">
       <div className="flex justify-center items-center gap-3 h-[11.3125rem]">
         <a href="/" className="p-3 bg-[#1E2024] rounded-[0.3125rem]">
           <svg

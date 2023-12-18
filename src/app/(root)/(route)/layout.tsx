@@ -8,12 +8,12 @@ export default function RouteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <div className='flex flex-col min-h-screen'>
       <Navbar />
-      <main className="mt-16 relative overflow-hidden">
+      <main className="flex-1 mt-16 relative overflow-hidden">
       {children}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

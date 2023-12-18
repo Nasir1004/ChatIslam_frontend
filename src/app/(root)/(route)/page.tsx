@@ -4,12 +4,12 @@ import JoinUs from '@/components/home/JoinUs';
 import MadeFor from '@/components/home/MadeFor';
 import Offer from '@/components/home/Offer';
 import Video from '@/components/home/Video';
-import WaitList from '@/components/home/WaitList';
+import Header from '@/components/home/Header';
 
 const Home = () => {
   return (
     <>
-      <WaitList />
+      <Header />
       <ChatIslamBG />
       <Video />
       <Discovery />

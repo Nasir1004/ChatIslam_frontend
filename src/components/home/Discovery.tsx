@@ -9,7 +9,7 @@ const Discovery = () => {
         <div className="flex-1 w-full">
           <Image
             src="/user1.png"
-            alt="chatislam"
+            alt="chat islam"
             width="0"
             height="0"
             sizes="100vw"
@@ -18,7 +18,7 @@ const Discovery = () => {
         </div>
         <div className="flex-1 flex flex-col gap-6">
           <h3 className="text-[2.5rem] lg:text-[3.5rem] font-bold leading-[110%]">
-            Discover Islam with ChatIslam AI
+            Discover Islam with Chat Islam AI
           </h3>
           <p className="text-lg font-normal leading-[160%]">
             Your trusted companion for exploring Islamic beliefs, culture,

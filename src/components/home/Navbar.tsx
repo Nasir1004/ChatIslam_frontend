@@ -13,18 +13,18 @@ const navMenus = [
 const Navbar = () => {
   return (
     <header className='fixed top-0 w-full z-30'>
-      <nav className="max-container  padding-container flex justify-between items-center py-3 text-white bg-[#101010]">
+      <nav className="max-container padding-container flex justify-between items-center py-6 text-white bg-[#101010]">
         <div>
           <Link href="/" className="text-lg font-medium leading-[1.125rem]">{AppConfig.site_name}</Link>
         </div>
         <MobileNav menus={navMenus} />
         <ul className="hidden lg:flex items-center gap-[3.75rem]">
-          {navMenus.map((menu) => (
-            <li key={menu.src} className="text-lg font-medium leading-[1.125rem]">
+          {navMenus.map((menu, index) => (
+            <li key={index} className="text-lg font-medium leading-[1.125rem]">
               <Link href={menu.src}>{menu.title}</Link>
             </li>
           ))}
-        <li><button className="py-2 px-3 bg-[#054d49] rounded-xl">Join Us</button></li>
+        <li><Link href="/waitlist" className="py-2 px-3 bg-[#01302E] rounded-xl">Join Us</Link></li>
         </ul>
       </nav>
     </header>

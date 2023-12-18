@@ -43,8 +43,8 @@ const MobileNav = ({ menus }: IProps) => {
             <CloseIcon />
           </button>
           <ul className="flex flex-col items-center">
-            {menus.map((menu) => (
-              <li key={menu.src} className="text-white py-2">
+            {menus.map((menu, index) => (
+              <li key={index} className="text-white py-2">
                 <Link href={menu.src}>{menu.title}</Link>
               </li>
             ))}
